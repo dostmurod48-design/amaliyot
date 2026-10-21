@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1234px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.nav_list{
+    display: flex;
+    gap: 50px;
+
+}
+.btn{
+    width: 75px;
+    height: 30px;
+    border: none;
+    color: white;
+    background: black;
+    border-radius: 5px;
+}
+.nav_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
